@@ -17,6 +17,17 @@ interface headRow {
 
 function HeadRow({ setOpenFilter }: headRow) {
   const days = weekAhead();
+  const weekDays = [
+    "sunday",
+    "monday",
+    "tuesday",
+    "wednesday",
+    "thursday",
+    "friday",
+    "saturday",
+  ];
+
+  const newDays: Date[] | null = days.map((day) => new Date(day));
   return (
     <TableHead>
       <TableRow>
@@ -33,7 +44,7 @@ function HeadRow({ setOpenFilter }: headRow) {
             width={"stretch"}
           />
         </TableCell>
-        {days.map((day) => (
+        {days.map((day, index) => (
           <TableCell
             colSpan={2}
             key={day}
@@ -44,8 +55,8 @@ function HeadRow({ setOpenFilter }: headRow) {
               borderRight: "solid 4px #2b57d4",
             }}
           >
-            {" "}
-            {day}
+            {weekDays[newDays[index].getDay()]}
+            {" " + day.slice(8, 10) + "/" + day.slice(5, 7)}
           </TableCell>
         ))}
       </TableRow>
@@ -58,7 +69,6 @@ function HeadRow({ setOpenFilter }: headRow) {
             <TableCell
               sx={{
                 color: "white",
-                borderLeft: "solid 4px #2b57d4",
                 textAlign: "center",
                 padding: 0,
                 fontSize: "15px",
@@ -70,7 +80,7 @@ function HeadRow({ setOpenFilter }: headRow) {
             <TableCell
               sx={{
                 color: "white",
-                borderRight: "solid 2p white",
+                borderRight: "solid 4px #2b57d4",
                 textAlign: "center",
                 padding: 0,
                 fontSize: "15px",
