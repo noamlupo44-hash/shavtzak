@@ -1,0 +1,17 @@
+.filterButton{
+  position: relative;
+  padding: 5px;
+  
+}
+.filterButton button{
+  width:80px;
+  height: 30px;
+
+  border: solid 5px #2b57d4;
+  border-radius: 5px;
+  background-color: #2b57d4;
+}
+.daysRow{
+  margin: 30px 0px;
+  padding: 50px;
+}

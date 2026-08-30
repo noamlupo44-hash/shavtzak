@@ -1,0 +1,13 @@
+th{
+    color: white;
+}
+.wholeTable {
+    height: 100%;
+    overflow: auto;
+    min-width: 0;
+    width: 95%;
+}
+table{
+    width: max-content;
+    margin-left: 0;
+}

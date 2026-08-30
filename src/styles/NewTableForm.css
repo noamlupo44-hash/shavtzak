@@ -1,0 +1,39 @@
+.outer{
+  position: fixed;
+  inset: 0;
+
+  background: rgba(0,0,0,0.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.createForm{
+    width:250px;
+    height:300px;
+    border: solid 5px white;
+    padding: 15px;
+    position: relative;
+}
+form input{
+    width:200px;
+    height: 30px;
+}
+form label{
+    color:white;
+}
+.exitButton{
+    position: absolute;
+    right:15px;
+    bottom: 15px;
+    height:40px;
+    width: 80px;
+    background-color: #1c67e3;
+    border: solid 3px #2b57d4;
+    border-radius: 8px;
+    color:white;
+    font-size: 20px;
+}
+span{
+    color: red;
+}

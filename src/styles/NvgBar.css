@@ -1,0 +1,21 @@
+.homeRowOutside {
+  background-color: #06133d;
+  height: 10vh;
+  padding: 1vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.homeRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 5px #2b57d4;
+  height: 8vh;
+  border-radius: 20px;
+  background-color: #1c67e3;
+  flex-direction: row;
+  width: 95%;
+  color:white;
+}

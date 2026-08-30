@@ -1,0 +1,35 @@
+.TableLinks{
+    width:17dvw;
+    height:17dvw;
+    border: solid 5px #2b57d4;
+    background-color: #1c67e3;
+    border-radius: 30px;
+    margin: 0px 1vw;
+    overflow-wrap: break-word;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:2dvw;
+}
+.TableLinks a{
+    color:white;
+    text-decoration: none;
+    font-size:5cqw;
+}
+.TableLinksWrapper{
+    width:95dvw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+.pickTable{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5vh 0px;
+}
+.TableLinks:hover .removeButton{
+  display: block;
+}

@@ -1,0 +1,82 @@
+.row{
+  display: table-row;
+}
+.day input::placeholder{
+  color:black;
+}
+.row input::placeholder{
+  color:black;
+}
+.day input{
+  width: 100px;
+  height: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+.day{
+  margin: 0px;
+  padding: 0px;
+}
+.shiftTable table{
+  border-spacing: 0px;
+}
+.title{
+  width: 50px;
+  height: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+.space{
+  width: 130px;
+}
+
+table {
+  border-collapse: collapse;
+  width: max-content;
+  min-width: max-content;
+  border-collapse: collapse;
+}
+th{
+    color: white;
+}
+.whole{
+  width: 100%;
+  padding: 30px 0px;
+}
+
+.addRow{
+  width: 80px;
+  height: 30px;
+  background-color: inherit;
+  border: none;
+  color:lightgreen;
+  font-size: 50px;
+}
+.filterButton{
+  position: relative;
+  padding: 5px;
+  
+}
+.filterButton button{
+  width:80px;
+  height: 30px;
+
+  border: solid 5px #2b57d4;
+  border-radius: 5px;
+  background-color: #2b57d4;
+}
+.daysRow{
+  margin: 30px 0px;
+  padding: 50px;
+}
+.activedDay input{
+  width: 100px;
+  height: 30px;
+  margin: 0px;
+  padding: 0px;
+  background-color: yellow;
+}
+.activedDay{
+  margin: 0px;
+  padding: 0px;
+}

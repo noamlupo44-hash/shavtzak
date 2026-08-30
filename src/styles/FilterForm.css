@@ -1,0 +1,11 @@
+.inner{
+    position: absolute;
+    left:0;
+    top:100%;
+    border: white;
+    background-color: blue;
+    z-index: 1000;
+}
+.inner input{
+    width:95px;
+}
