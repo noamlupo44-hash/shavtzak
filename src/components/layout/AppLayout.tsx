@@ -5,7 +5,7 @@ import "../../styles/AppLayout.css";
 function AppLayout() {
   return (
     <>
-      <h1>branch conflict</h1>
+      <h1>learning pull</h1>
       <nav>
         <NvgBar />
       </nav>
