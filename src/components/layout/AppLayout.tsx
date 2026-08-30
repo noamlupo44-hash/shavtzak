@@ -5,6 +5,7 @@ import "../../styles/AppLayout.css";
 function AppLayout() {
   return (
     <>
+      <h1>hello world</h1>
       <nav>
         <NvgBar />
       </nav>
