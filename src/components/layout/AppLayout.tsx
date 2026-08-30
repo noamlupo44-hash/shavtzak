@@ -5,7 +5,6 @@ import "../../styles/AppLayout.css";
 function AppLayout() {
   return (
     <>
-      <h1>learning pull</h1>
       <nav>
         <NvgBar />
       </nav>
