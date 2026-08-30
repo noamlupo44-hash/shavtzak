@@ -5,7 +5,7 @@ import "../../styles/AppLayout.css";
 function AppLayout() {
   return (
     <>
-      <h1>hello world</h1>
+      <h1>main conflict</h1>
       <nav>
         <NvgBar />
       </nav>
